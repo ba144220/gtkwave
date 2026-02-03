@@ -1,0 +1,21 @@
+# Build artifacts
+read_signal
+*.o
+*.dSYM/
+
+# Python bytecode (for future Python bindings)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
